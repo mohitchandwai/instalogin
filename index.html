@@ -1,22 +1,60 @@
 <html>
     <head>
         <title> login</title>
+        <style>
+            .t { border: 1px solid black;
+                 width: 380px; 
+                 height: 400px;}
+            td,th {border: none;}
+            .m { margin-top: 20px;
+               margin-bottom: 20px;}
+               .o { margin-top: 20px;
+               margin-bottom: 20px;}
+               .h { margin-top: 20px;
+               margin-bottom: 20px;}
+               .i { margin-top: 20px;
+               margin-bottom: 20px;}
+               .c { margin-right: 500px;
+                    width:200px;}
+        </style>
     </head>
     <body>
-        <form>
-            <table align="center">
+        <form action="process.php">
+            <table align="center" border="1" class="t">
                 <tr>
-                    <td colspan="2"><img src="Logo-Instagram-1.png" alt="logo" height="100" width="100"></td>
+                    <th colspan="2"><img src="Logo-Instagram-1.png" alt="logo" height="200" width="200"></th>
                 </tr>
                 <tr>
-                    <td>username</td>
-                    <td><input type=text name=t1></td>
+                    <td colspan="2" align="center"><input type=text name=t1 placeholder="username" style="width: 250px; height: 30px;"></td>
                 </tr><br>
                 <tr>
-                    <td>password</td>
-                    <td><input type=password name=t2></td>
+                    <td colspan="2" align="center"><input type=password name=t2 placeholder="password" style="width: 250px; height: 30px;"></td>
                 </tr>
+                <tr>
+                    <th colspan="2" ><input type="submit" value="Log in" style="background-color: skyblue; width: 250px; height: 30px;" class="m"></th>
+
+                </tr>
+                <tr ><th colspan="2" class="o">-------OR-------</th></tr>
+                <tr><th colspan="2" ><a href="facebook api.php" class="h">Log in with Facebook</a></th></tr>
+                <tr><th colspan="2"><a  href="forgotpassword.php"class="i">Forgot password?</a></th></tr>
             </table>
         </form>
+        <table align="center" border="1" width="380px" height="60px">
+            <tr><td align="center">Don't have an account?<a href="Sign up.html">Sign up</a></td></tr>
+
+        </table>
+        <p align="center">Get the app.</p>
+        <table align="center">
+            <tr><td>
+        <a href="google play">
+            <img src="Logo-Instagram-google play.png" alt="Image description" height="50" width="100">
+          </a></td>
+          <td><a href="microsoft">
+            <img src="Logo-Instagram-microsoft.png" alt="Image description" height="50" width="100">
+          </a></td>
+          </tr>
+               </table>
+               <p align="center">Meta About Blog Jobs Help API Privacy Terms Locations Instagram Lite Threads Contact Uploading & Non-Users Meta Verified <br>
+                English  © 2024 Instagram from Meta</p>     
     </body>
 </html>
